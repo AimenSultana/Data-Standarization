@@ -12,3 +12,5 @@ Some Python Script for to simply the Data workflow
 | [convert_shapefile_attribute.py](convert_shapefile_attribute.py) | Standardizes shapefile attributes to predicted/geometry schema | Folder with Shapefiles | Modified Shapefiles | geopandas | Aimen | 2025-05-06 |
 
 | [convert_shapefile_predicted_datatype.py](convert_shapefile_predicted_datatype.py) | Converts string 'predicted' columns to integers in shapefiles | Folder with Shapefiles | Standardized Shapefiles | geopandas | Aimen | 2025-05-06 |
+
+| [raster_clip.py](raster_clip.py) | Clips rasters to vector boundaries | Raster + Shapefile | Clipped Raster | rasterio, geopandas | Aimen | 2025-05-06 |
