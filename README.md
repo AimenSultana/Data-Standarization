@@ -14,4 +14,5 @@ A collection of Python scripts designed to simplify geospatial data workflows, p
 | [`dissolve_shapefile.py`](dissolve_shapefile.py) | Dissolves features by attribute with topology repair | Shapefile | Dissolved Shapefile | geopandas | Zainab | 2025-05-06 |
 | [`s3_bucket_summary.py`](s3_bucket_summary.py) | Summarizes S3 bucket/folder contents | S3 Credentionals and bucket/folder path | Detailed Summary Excel | geopandas | Aimen | 2025-05-06 |
 | [`compressed_raster.py`](compressed_raster.py) | Rescales, compresses, mosaics, and extracts bands from raster imagery | `.tif` raster folder | Compressed RGB `.tif` mosaic | gdal, numpy, glob, os | Hiba Nasir | 2025-05-06 |
+ [shapefile_clip.py](shapefile_clip.py) | Clips vector features to boundaries | Shapefile + Boundary | Clipped Shapefile | geopandas | Zainab | 2025-05-06 |
 
