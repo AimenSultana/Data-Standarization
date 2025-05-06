@@ -16,3 +16,5 @@ Some Python Script for to simply the Data workflow
 | [raster_clip.py](raster_clip.py) | Clips rasters to vector boundaries | Raster + Shapefile | Clipped Raster | rasterio, geopandas | Aimen | 2025-05-06 |
 
 | [dissolve_shapefile.py](dissolve_shapefile.py) | Dissolves features by attribute with topology repair | Shapefile | Dissolved Shapefile | geopandas | Zainab | 2025-05-06 |
+
+| [s3_bucket_summary.py](s3_bucket_summary.py) | Whole Bucket/folder Summary | All Files | Modified | geopandas | Aimen | 2025-05-06 |
