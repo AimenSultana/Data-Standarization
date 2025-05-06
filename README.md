@@ -18,3 +18,5 @@ Some Python Script for to simply the Data workflow
 | [dissolve_shapefile.py](dissolve_shapefile.py) | Dissolves features by attribute with topology repair | Shapefile | Dissolved Shapefile | geopandas | Zainab | 2025-05-06 |
 
 | [s3_bucket_summary.py](s3_bucket_summary.py) | Whole Bucket/folder Summary | All Files | Modified | geopandas | Aimen | 2025-05-06 |
+
+| [compressed_raster.py](compressed_raster.py) | Rescales, compresses, mosaics, and extracts bands from satellite raster imagery | .tif raster files in folder structure | Compressed RGB .tif mosaic | gdal, numpy, glob, os | Aimen Sultana | 2025-05-06 |
