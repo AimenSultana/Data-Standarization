@@ -10,3 +10,5 @@ Some Python Script for to simply the Data workflow
 | [shapefile_metadata.py](shapefile_metadata.py) | Analyzes and reports shapefile metadata structure | Folder with Shapefiles | Column inventory table | geopandas, pandas |  Aimen | 2025-05-06 |
 
 | [convert_shapefile_attribute.py](convert_shapefile_attribute.py) | Standardizes shapefile attributes to predicted/geometry schema | Folder with Shapefiles | Modified Shapefiles | geopandas | Aimen | 2025-05-06 |
+
+| [convert_shapefile_predicted_datatype.py](convert_shapefile_predicted_datatype.py) | Converts string 'predicted' columns to integers in shapefiles | Folder with Shapefiles | Standardized Shapefiles | geopandas | Aimen | 2025-05-06 |
