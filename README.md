@@ -6,3 +6,5 @@ Some Python Script for to simply the Data workflow
 | [shapefile_area_comparison.py](shapefile_area_comparison.py) | Compares areas between two classification shapefiles | Two Shapefiles | Area comparison results | geopandas | Aimen | 2025-05-06 |
 
 | [shapefile_area_analyzer.py](shapefile_area_analyzer.py) | Advanced shapefile area comparison with categorical breakdowns | Two Shapefiles | Area reports and comparisons | geopandas | Aimen | 2025-05-06 |
+
+| [shapefile_metadata.py](shapefile_metadata.py) | Analyzes and reports shapefile metadata structure | Folder with Shapefiles | Column inventory table | geopandas, pandas |  Aimen | 2025-05-06 |
