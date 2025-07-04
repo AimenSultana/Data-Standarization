@@ -17,9 +17,9 @@ from tabulate import tabulate
 
 
 # Raw file input folder
-Raw_Data_Dir = r"D:\Test_Standard_script\raw"          
+Raw_Data_Dir = r"D:\Test_Standard_script\1_boundary\raw"          
 # Processed output folder
-Processed_Dir =r"D:\Test_Standard_script\processed"
+Processed_Dir =r"D:\Test_Standard_script\1_boundary\processed"
 
 # This function stored processed file path for final summary
 processed_files_summary = []
@@ -132,26 +132,6 @@ def generate_output_name(metadata):
     if metadata["extra_attr"]:
         filename += f"_{metadata['extra_attr']}"
     return filename + ".geojson"
-
-# def summary_output(output_path):
-#     """Print summary of processed output."""
-#     try:
-#         gdf = gpd.read_file(output_path)
-#         print(f"\n-- Processed File Summary --")
-#         print(f"Output File: {os.path.basename(output_path)}")
-
-#         if "name" in gdf.columns:
-#             print(tabulate(gdf[["name"]].head(), headers='keys', tablefmt='grid'))
-#         else:
-#             print("Warning: 'name' column not found in output.")
-
-#         print("\n CRS: ", gdf.crs)
-#         print(" Geometry Types: ", gdf.geometry.geom_type.unique())
-
-#         if set(gdf.columns) != ["name", "geometry"]:
-#             print("Warning: Extra Columns exist:", list(gdf.columns))
-#     except Exception as e:
-#         print(f"Error reading summary: {e}")
 
 def process_boundary_file(input_path, metadata):
     """Complete file standardization for one boundary input. """
